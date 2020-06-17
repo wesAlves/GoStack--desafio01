@@ -21,7 +21,7 @@ app.get("/repositories", (request, response) => {
 app.post("/repositories", (request, response) => {
 
   const { title, url, techs  } = request.body;
-  const repository = { id: uuid(), title, url: "https://github.com/wesAlves/GoStack--desafio01", techs, likes: 0 };
+  const repository = { id: uuid(), title, url: "https://github.com/Rocketseat/umbriel", techs, likes: 0 };
 
   repositories.push(repository);
 
